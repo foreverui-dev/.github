@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="ForeverUI – Addons und Werkzeuge für WoW Forever">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14110c"/>
+      <stop offset="1" stop-color="#0b0a08"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.55" r="0.55">
+      <stop offset="0" stop-color="#d9a441" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#d9a441" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6d58a"/>
+      <stop offset="0.55" stop-color="#d9a441"/>
+      <stop offset="1" stop-color="#a8752a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#glow)"/>
+  <rect x="10" y="10" width="1180" height="280" rx="12" fill="none" stroke="#d9a441" stroke-opacity="0.35"/>
+  <g fill="#d9a441" fill-opacity="0.5">
+    <circle cx="140" cy="70" r="1.6"/><circle cx="230" cy="210" r="1.2"/><circle cx="330" cy="110" r="1"/>
+    <circle cx="880" cy="80" r="1.4"/><circle cx="990" cy="200" r="1.1"/><circle cx="1070" cy="120" r="1.6"/>
+    <circle cx="420" cy="240" r="1"/><circle cx="780" cy="250" r="1.2"/>
+  </g>
+  <!-- Unendlich-Zeichen -->
+  <path d="M600 78 C584 52 548 52 548 78 C548 104 584 104 600 78 C616 52 652 52 652 78 C652 104 616 104 600 78 Z" fill="none" stroke="url(#gold)" stroke-width="5" stroke-linejoin="round"/>
+  <text x="600" y="178" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="68" font-weight="700" fill="url(#gold)" letter-spacing="2">ForeverUI</text>
+  <line x1="470" y1="200" x2="730" y2="200" stroke="#d9a441" stroke-opacity="0.45"/>
+  <text x="600" y="236" text-anchor="middle" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" fill="#e8dcc4" fill-opacity="0.85" letter-spacing="1">Addons und Werkzeuge für World of Warcraft: Forever</text>
+</svg>
